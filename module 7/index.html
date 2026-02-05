@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 7</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <!-- sign up form -->
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" value="John" readonly required><br>
+
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname"  placeholder="Your surname" required><br>
+
+        <label for="email"> Email: </label><br>
+        <input type="email" id="email" name="email" disabled><br>
+
+        <label for="password"> Password: </label><br>
+        <input type="password" id="password" name="password" size="40"><br><br>
+        
+        <!-- radio input -->
+        <label>Gender :</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <!-- checkboxes -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="gaming" name="gaming" value="gaming">
+        <label for ="gaming">Gaming</label><br>
+
+        <input type="checkbox" id="football" name="football" value="football">
+        <label for="football">Football</label><br>
+
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label for="swimming">Swimming</label><br> <br>
+
+
+
+        <!--select-->
+        <label>Choose your pet : </label>
+        <select name="pet" id="pet">
+            <option value=""></option>  
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="parrot">Parrot</option>
+        </select>
+        <br><br>
+
+        <!-- textarea -->
+         <textarea name="message" rows="10" cols="20" maxlength="50" >
+         </textarea>
+
+       <input type="submit" id="submit" name="submit"><br><br>
+
+       </fieldset>
+
+
+    </form>
+    <hr>
+    <br>
+    <!-- Semantic-->
+    <article>
+        <h2>HTML</h2>
+        <p>HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.    </p>
+    </article>
+    
+    <details>
+        <summary>Digital School</summary>
+        <p>Institution which offers programming courses for students.</p>
+
+    </details>
+
+    <br>
+    <br>
+    <br>
+
+
+    <summary>
+        <h2>Introduction</h2>
+        <p> This Course will teach you how to create web pages using HTML, CSS, and JavaScript.</p>
+    </summary>
+
+</body>
+</html>
