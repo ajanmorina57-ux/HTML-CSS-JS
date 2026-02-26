@@ -1,0 +1,62 @@
+/*
+p{
+    color: blue;
+    text-decoration: overline;
+    font-family: fantasy;
+    text-indent: 70px;
+}
+*/
+h1{
+    text-decoration: line-through;
+}
+
+h2{
+    text-decoration: dashed;
+}
+
+h3{
+    text-decoration: line-through;
+    
+
+}
+
+.ekuqe{
+    color: red;
+}
+
+.blue{
+    color: blue;
+    text-decoration: overline;
+    font-weight: 500;
+}
+
+.red{
+    color: red;
+    text-decoration: underline;
+}
+
+#design{
+    font-family: monospace;
+    text-decoration: line-through;
+
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color:green;
+
+}
+
+a:hover{
+    color:chartreuse;
+    text-decoration: overline;
+}
+
+a:active{
+    color: purple;
+    text-decoration: line-through;
+}
+
