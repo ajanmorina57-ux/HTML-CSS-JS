@@ -1,0 +1,153 @@
+.container{
+    display: flex;
+    background-color: #06206A;
+
+}
+
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+
+}
+
+
+
+.container div:nth-child(1){
+    order: 2;
+}
+
+.container div:nth-child(2){
+    order: 3;
+}
+
+.container div:nth-child(3){
+    order: 4;
+}
+
+.container div:nth-child(4){
+    order: 1;
+}
+
+
+/* Flex direction : row, row-reverse, column, column-reverse */
+
+.container1{
+    display: flex;
+    background-color: #06206A;
+    flex-direction: column-reverse;
+}
+
+.container1 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+/* flex grow*/
+
+.container2{
+    display: flex;
+    background-color: #06206A;
+    flex-direction: row;
+    
+
+}
+
+.container2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container2 div:nth-child(3){
+    flex-grow: 4;
+}
+
+/* flex wrap */
+
+
+/* flex wrap: nowrap, wrap, wrap-reverse */
+
+.container3{
+    display: flex;
+    background-color: #06206A;
+    flex-wrap: wrap-reverse;
+    
+
+}
+
+.container3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 30%;
+}
+
+/* Justify content: flex-start, flex-end, center, space-between, space-around, space-evenly */
+/* Align self */
+.container4{
+    display: flex;
+    background-color: #06206A;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 200px;
+
+}
+
+
+.container4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 200px;
+}
+
+.container4 div:nth-child(2){
+    align-self: flex-end;
+}
+
+
+.container5{
+    display: flex;
+    background-color: #06206A;
+    flex-direction: row;
+    height: 500px;
+    align-items: flex-start;
+    
+
+}
+
+.container5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 30%;
+
+    height: 200px;
+}
+
+
+.container5 div:nth-child(1){
+    height: 20px;
+}
+
+.container5 div:nth-child(2){
+    height: 100px;
+}
+
+.container5 div:nth-child(3){
+    height: 50px;
+}
+
+.container5 div:nth-child(4){
+    height: 130px;
+}
+
