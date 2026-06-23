@@ -1,4 +1,4 @@
-var words = ["Hello", "Hi" , "Howdy", "Hola", "Bonjour", "Ciao", "Namaste", "Salaam", "Konnichiwa", "G'day"];
+var words = ["Hello", "Hi" , "Howdy", "Hola", "Bonjour", "Ciao", 'Pershendetje'];
 var colors = ["red", "blue", "green", "orange", "purple", "pink", "brown", "cyan", "magenta", "yellow"];
 
 var i = 0;
